@@ -78,8 +78,7 @@
   width: 140px;
 }
 .zy-header .menu .nav li.top .sub {
-  background: #f0f5f8;
-  opacity: 0.8;
+  background: rgba(240, 245, 248, 0.8);
   position: absolute;
   top: 40px;
   left: 0;
