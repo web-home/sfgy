@@ -13,6 +13,16 @@ body {
   color: #333;
   line-height: 160%;
 }
+.clear {
+  -ms-zoom: 1;
+}
+.clear:after {
+  content: ' ';
+  clear: both;
+  display: block;
+  visibility: hidden;
+  height: 0px;
+}
 img {
   border: none;
 }
