@@ -14,10 +14,7 @@ define(function(require,exports,module){
 				$(this).find('.sub').show();
 			},function(){
 				$(this).find('.sub').hide();
-			});
-			$('.nav .top').click(function(){
-				$(this).addClass('active').siblings().removeClass('active');
-			});
+			})
 		}
 	}
 	module.exports = Header;
