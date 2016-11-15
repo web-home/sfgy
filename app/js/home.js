@@ -1,7 +1,5 @@
 define(function(require,expores,module){
-	var header = require('../views/headerView.html');
-	var headerjs = require('../js/header.js');
-	var footer = require('../views/footerView.html');
+	
 	var home = require('../views/homeView.html');
 
 	var Home = {
@@ -14,12 +12,6 @@ define(function(require,expores,module){
 			this.topcontrol();
 		},
 		showView: function(){
-			var _header = _.template( header );
-			$('#header').html( _header() );
-			headerjs.initPage();
-
-			var _footer = _.template( footer );
-			$('#footer').html( _footer() );
 
 			var _home = _.template( home );
 			$('#home').html( _home() );

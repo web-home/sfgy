@@ -20,8 +20,9 @@
 		seajs.config({
 			base: './'	
 		});
-		seajs.use(['js/home.js'],function(a){
-			a.initPage();
+		seajs.use(['js/public.js','js/home.js'],function(a,b){
+			a.init();
+			b.initPage();
 		});
 	</script>
 </body>
